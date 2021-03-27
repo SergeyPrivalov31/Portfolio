@@ -1,32 +1,45 @@
 header {
-  background-color: rgba(0, 0, 0, 0.671);
+	background-color: rgba(0, 0, 0, 0.671);
 }
 
 body {
-  font-size: 20px;
-  background-color: black;
-  margin: 0px 0px 0px 50px;
+	font-size: 20px;
+	background-color: black;
+	margin: 0px 0px 0px 50px;
 }
 body div {
-  font-size: 50px;
+	font-size: 50px;
 }
 body h1 {
-  color: green;
+	color: green;
 }
 
 .block__item {
-  color: purple;
+	color: purple;
 }
 .block__ {
-  color: yellowgreen;
+	color: yellowgreen;
 }
 
 .red {
-  color: red;
+	color: red;
 }
 
 @media (max-width: 767px) {
-  .red {
-    border: 0;
-  }
+	.red {
+		border: 0;
+	}
+}
+
+._icon-fb:before {
+	content: "\e900";
+}
+._icon-twitter:before {
+	content: "\e901";
+}
+._icon-insta:before {
+	content: "\e902";
+}
+._icon-linkedin:before {
+	content: "\e903";
 }
